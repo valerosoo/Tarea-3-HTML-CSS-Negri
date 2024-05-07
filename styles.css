@@ -1,0 +1,104 @@
+:root{
+    --ColorRojo_fondo: rgb(255, 0, 0);
+    --ColorBody :rgba(252, 157, 157, 0.7);
+}
+
+#Bloque_decorativo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: var(--ColorRojo_fondo);
+    margin: 0;
+    height: 100px;
+}
+
+#div_centrar{
+    display: flex;
+    justify-content: center; 
+}
+
+#img_AAAJ {
+    width: 80px;
+    height: 80px;
+}
+#barra_style{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0px;
+}
+#barra_centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0;
+}
+
+#barra_style li {
+    margin: 50px; /* Ajusta el margen entre elementos */
+    display: flex;
+}
+
+#barra_style li:last-child {
+    margin-right: 0; /* Elimina el margen del último elemento */
+}
+
+/*Body*/
+
+
+body{
+    background-color: var(--ColorBody);
+}
+.img{
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#div_centrar img{
+    margin: 20px;
+}
+#img_cancha{
+    width: auto;
+    height: auto;
+}
+#div_img_cancha{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+table {
+    width: 15cm;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f228;
+}
+#horarios{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#div_contacto{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    height: 100px;
+    background-color: #0000003d;
+}
+#a{
+    font-size: 40px;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(20, 16, 211);
+}

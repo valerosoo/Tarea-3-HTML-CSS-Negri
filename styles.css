@@ -3,6 +3,8 @@
     --ColorBody :rgba(252, 157, 157, 0.7);
 }
 
+/* header */
+
 #Bloque_decorativo {
     display: flex;
     justify-content: space-between; 
@@ -26,6 +28,7 @@
     list-style-type: none;
     justify-content: space-around;
     margin: 0px;
+    font-family: 'Sacramento', cursive;
 }
 #barra_centrar{
     display: flex;
@@ -36,24 +39,38 @@
 }
 
 #barra_style li {
-    margin: 50px; /* Ajusta el margen entre elementos */
+    margin: 50px;
     display: flex;
 }
 
 #barra_style li:last-child {
-    margin-right: 0; /* Elimina el margen del último elemento */
+    margin-right: 0;
 }
+#Handball{
+    font-size: 50px;
+}
+
+
 
 /*Body*/
 
-
+h1{
+    font-family: 'Indie Flower', cursive; 
+}
 body{
     background-color: var(--ColorBody);
 }
-.img{
+
+.li{
+    list-style-type: none;
+}
+.centrar_texto{
+    text-align: center;
+}
+#img_fotos{
     margin-top: 50px;
-    width: 300px;
-    height: 200px;
+    width: 9cm;
+    height: 6cm;
     border: 2px solid black;
 }
 
@@ -61,8 +78,9 @@ body{
     margin: 20px;
 }
 #img_cancha{
-    width: auto;
-    height: auto;
+    width: 16cm;
+    height: 9cm;
+    border: 2px solid black;
 }
 #div_img_cancha{
     display: flex;
@@ -71,7 +89,9 @@ body{
 }
 table {
     width: 15cm;
+    background-color: #e98888;
     border-collapse: collapse;
+    border: 4px solid black;
 }
 th, td {
     border: 1px solid #000000;
@@ -86,6 +106,17 @@ th {
     display: flex;
     justify-content: center;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin-top: 30px;
+}
+
+/* footer */
+
 #div_contacto{
     display: flex;
     align-items: center;
@@ -94,11 +125,26 @@ th {
     background-color: #0000003d;
 }
 #a{
-    font-size: 40px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration-thickness: 3px;
 }
-a{
+.a{
     color: rgb(0, 0, 0);
 }
 a:hover{
     color: rgb(20, 16, 211);
+}
+#div_inicio{
+    margin-left: 930px;
+}
+#inicio{
+    text-decoration-thickness: 2px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.img_YI{
+    width: 20px;
+    height: 20ps;
+    margin: -3px;
 }

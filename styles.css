@@ -79,7 +79,7 @@ body{
     margin: 20px;
 }
 #img_cancha{
-    width: 16cm;
+    width: 15.1cm;
     height: 9cm;
     border: 2px solid black;
 }
@@ -89,7 +89,7 @@ body{
     margin-top: 50px;
 }
 table {
-    width: 15cm;
+    width: 16cm;
     background-color: #e98888;
     border-collapse: collapse;
     border: 4px solid black;

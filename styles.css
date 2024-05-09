@@ -59,6 +59,7 @@ h1{
 }
 body{
     background-color: var(--ColorBody);
+    margin: 0;
 }
 
 .li{
@@ -109,6 +110,7 @@ th {
 
 html{
     scroll-behavior: smooth;
+   
 }
 
 section{
@@ -120,9 +122,9 @@ section{
 #div_contacto{
     display: flex;
     align-items: center;
-    margin-top: 50px;
     height: 100px;
     background-color: #0000003d;
+    justify-content: space-between;
 }
 #a{
     font-size: 30px;
@@ -136,7 +138,7 @@ a:hover{
     color: rgb(20, 16, 211);
 }
 #div_inicio{
-    margin-left: 930px;
+    margin-right: 20px;
 }
 #inicio{
     text-decoration-thickness: 2px;
